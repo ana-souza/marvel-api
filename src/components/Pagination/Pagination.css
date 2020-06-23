@@ -1,0 +1,12 @@
+.pagination {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.link_button{
+    margin: 50px;
+}
