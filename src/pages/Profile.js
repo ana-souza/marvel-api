@@ -20,10 +20,9 @@ function Profile () {
         .then(data => setCharacter(data.data.results));
     }, []);
 
-    let output;
 
     return (
-        output = character.map(character => (   
+        character.map(character => (   
             <>
                 <Header title={character.name} />
                 
